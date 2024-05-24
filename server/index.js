@@ -2,7 +2,7 @@ import express from "express"
 
 const app = express()
 
-app.get('/' ,(res,req) => {
+app.get('/test' ,(res,req) => {
 
     req.json("Server is operational")
 })
